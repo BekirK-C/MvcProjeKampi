@@ -27,7 +27,7 @@ namespace MvcProjeKampi.Controllers
             var adminUserInfo = c.Admins.FirstOrDefault(x => x.AdminUserName == p.AdminUserName && x.AdminPassword == p.AdminPassword);
             if (adminUserInfo != null)
             {
-                FormsAuthentication.SetAuthCookie(adminUserInfo.AdminUserName,false);
+                FormsAuthentication.SetAuthCookie(adminUserInfo.AdminUserName, false);
                 Session["AdminUserName"] = adminUserInfo.AdminUserName;
                 return RedirectToAction("Index", "AdminCategory");
             }
@@ -60,6 +60,12 @@ namespace MvcProjeKampi.Controllers
                 //Response.Write("<script language='javascript'>alert(\"Hatalı Kullanıcı Adı veya Şifre Girdiniz\")</script>");
                 return RedirectToAction("WriterLogin");
             }
+        }
+        public ActionResult LogOut()
+        {
+            FormsAuthentication.SignOut();
+            Session.Abandon();
+            return RedirectToAction("Headings", "Default");
         }
     }
 }
