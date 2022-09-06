@@ -30,7 +30,11 @@ namespace MvcProjeKampi.Controllers
         public ActionResult Test()
         {
             return View();
+        }public ActionResult HomePage()
+        {
+            return View();
         }
+#warning PROJE BİTİNCE GÖRSELLER EKLENECEK HOMEPAGE.CSHTML B:90 D:6
 
     }
 }
