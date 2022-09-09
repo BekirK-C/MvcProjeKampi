@@ -16,6 +16,9 @@ namespace MvcProjeKampi.Controllers
         public ActionResult Test2()
         {
             return View();
+        }public ActionResult SweetAlert()
+        {
+            return View();
         }
     }
 }
