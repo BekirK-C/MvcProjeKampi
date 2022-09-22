@@ -2586,7 +2586,6 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Test.cshtml" />
-    <Content Include="Views\Shared\_Deneme.cshtml" />
     <Content Include="Views\Test\Index.cshtml" />
     <Content Include="Views\Test\Test2.cshtml" />
     <Content Include="Views\Category\Index.cshtml" />
