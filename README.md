@@ -1,6 +1,6 @@
 # MvcProjeKampi
 
-##Kullanılan Araçlar & Alt Yapılar & Teknolojiler
+Kullanılan Araçlar & Alt Yapılar & Teknolojiler
 Migrations
 Katmanlı Mimari
 Entity Framework
