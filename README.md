@@ -151,8 +151,9 @@
 
 ## Admin Paneli
 
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/80921292/196511451-77806333-28e1-4a81-9771-7ced43dd0550.gif)
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/80921292/196506209-7859c688-c42e-4ab7-8d50-18a032d3412f.gif)
 
 ## Yazar Paneli
+
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/80921292/196506597-4cd32b5e-4d39-4b35-afd3-c6dd1fc21b13.gif)
