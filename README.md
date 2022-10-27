@@ -24,44 +24,26 @@
 -   Constructor Business Metot oluşturuldu.
 
 -   DataAccessLayer katmanında entity framework sınıfları oluşturuldu.
--   Fluent Validation kavramına giriş yapıldı ve ilgili bileşenler kuruldu.
 
--   Seçilen Admin panel teması indirilerek yüklendi.
--   Tema üzerinde temel düzenlemeler yapılarak css, js ve image bağlantıları düzeltildi.
--   Sol (sidebar) menü kısmında düzenleme ve Türkçeleştirme çalışmaları yapıldı.
 -   Sidebar kullanılarak kategorilerin listelenmesi ve yeni kategori ekleme çalışmaları yapıldı.
 
 -   Kategori silme işlemi gerçekleştirildi.
--   Kategori güncelleme işlemi için güncellenecek kategori bilgilerinin güncelleme sayfasına taşınması işlemleri yapıldı.
 -   Kategori güncelleme işlemine giriş yapıldı.
 
 ### Ders 41-60
 
--   Entity State komutları ile ekleme, güncelleme ve silme yapıları düzenlendi.
 -   Yazar listeleme, ekleme, güncelleme ve silme yapıları yapıldı.
--   Yazar profilleri listesi sayfası ayarlandı.
 -   Add migration işlemi ile database güncellendi ve yazar ekleme sayfası yapıldı.
 
--   Yazar düzenleme metotdu ve sayfası eklendi.
--   ValidationMessage yazıları kırmızı yapıldı.
--   WriterTitle migration ile veri tabanına eklendi ve Yazar sayfasına entergre edildi.
--   IHeadingService,Heading Manager ve HeadingController oluşturuldu.
+-   Yazar düzenleme metodu ve sayfası eklendi.
 -   Başlık listeleme sayfası oluşturuldu.
 -   Yeni başlık girişi işlemleri yapıldı.
 -   Başlık işlemlerinde DropDownList ve ilişki yapıldı.
--   Başlık ekleme sayfasına DropDownList entegresi yapıldı.
-
--   Başlık sayfasına tema eklendi.
--   Content Service ve Managerler eklendi.
 
 -   ContentByHeading sayfası enteglereleri yapıldı.
--   ContentByHeading sayfasında başlıklara dair içerikler getirildi.
--   Başlık isim ve kategori düzenleme işlemleri yapıldı.
 -   Başlıkların aktif pasif özellikleri yapıldı.
--   Hakkımızda sayfası yapıldı ve popup eklendi.
 
--   Hakkımızda sayfası tamamlandı ve popupta yazılan bilgiler tablo halinde yapıldı.
--   Mesaj listeleme işlemi ve ContactValidationRules (Mail kuralları) yazıldı.
+-   Hakkımızda sayfası tamamlandı ve popupta yazılan bilgiler tablo halinde getitrildi.
 -   Mesaj sayfasında partial eklenerek menüyü sürekli her sayfa için tekrar yazımı engellendi.
 
 ### Ders 61-80
